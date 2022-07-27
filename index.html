@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="left-container">
+        <input class="name-field-1" placeholder="Jogador 1">
+        <div class="player-field-wrapper">
+            <input class="name-field-2" placeholder="Jogador 2">
+            <div class="switcher switcher-bot">
+                <div class="switcher-ball"></div>
+            </div>
+        </div>
+        <span class="green-text">Tipo de partida</span>
+        <div class="middle-box">
+            <span class=>Melhor de 3</span>
+            <div class="switcher">
+                <div class="switcher-ball">
+                </div>
+            </div>
+            <span class=>Melhor de 5</span>
+        </div>
+        <button class="play-button">Jogar</button>
+        <li></li>
+        <button class="reset-button">Reiniciar</button>
+    </div>
+    <div class="middle-container">
+        <div class="scoreboard">
+            <span class="scoreboard-title">Placar</span>
+            <div class="scoreboard-review">
+                <strong class="score">01</strong>
+                <span class="winner-title">Jogador 1</span>
+                <strong class="score">01</strong>
+            </div>
+        </div>
+        <div class="battlefield">
+            <span class="battlefield-spot spot00"></span>
+            <span class="battlefield-spot spot01"></span>
+            <span class="battlefield-spot spot02"></span>
+            <span class="battlefield-spot spot03"></span>
+            <span class="battlefield-spot spot04"></span>
+            <span class="battlefield-spot spot05"></span>
+            <span class="battlefield-spot spot06"></span>
+            <span class="battlefield-spot spot07"></span>
+            <span class="battlefield-spot spot08"></span>
+        </div>
+    </div>
+    <div class="right-container">
+        <ul class="play-history">Histórico de jogadas</ul>
+    </div>
+    <script src="index.js"></script>
+</body>
